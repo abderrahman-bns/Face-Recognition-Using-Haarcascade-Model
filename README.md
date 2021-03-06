@@ -21,6 +21,7 @@ de la personne se trouvant devant la caméra.
 Expliquations : 
 Ce document regroupe la notice d'utilisation du programme de reconnaissance Faciale. 
 Il est composé de 3 script : 
+
 	- rennomer.py : Permet de renommer les images d'un dossier en nombre.JPG 
 		-> Il faut entrer comme variable dans le script le lien du dossier ou se trouvent les images
 	- train.py : Permet de prendre nos images rennommées, de reconnaitre les visages et de les unifier dans un même format
@@ -30,6 +31,7 @@ Il est composé de 3 script :
 
 
 Il reste quoi à faire ? 
+
 	Prend des photos de toi (minimum une 15aine), et met les dans le dossier Personne/ton nom. 
 	Lance le rennomer.py pour ce fichier afin de numéroter les images 
 	lance le train.py
@@ -38,56 +40,49 @@ Il reste quoi à faire ?
 
 Architecture : 
 
-.
-├── att_faces
+	.├── att_faces
+	│   ├── edouard
+	│   │   ├── 0.png
+	│   │   ├── 1.png
+	│   │   └── 2.png
+	│   ├── s1
+	│   │   ├── 1.png
+	│   │   ├── 2.png
+	│   │   ├── 3.png
+	│   │   ├── 4.png
+	│   │   ├── 5.png
+	│   │   ├── 6.png
+	│   │   ├── 7.png
+	│   │   ├── 8.png
+	│   │   └── 9.png
+	│   ├── s2
+	│   │   ├── 1.png
+	│   │   ├── 2.png
+	│   │   ├── 3.png
+	│   │   ├── 4.png
+	│   │   ├── 5.png
+	│   │   ├── 6.png
+	│   │   ├── 7.png
+	│   │   ├── 8.png
+	│   │   └── 9.png
+	│   └── s3
+	│       ├── 1.png
+	│       ├── 2.png
+	│       ├── 3.png
+	│       ├── 4.png
+	│       ├── 5.png
+	│       ├── 6.png
+	│       ├── 7.png
+	│       ├── 8.png
+	│       └── 9.png
+	├── Personne
+	│    ── edouard
+	│       ├── r.JPG
+	│       ├── f.JPG
+	│       └── h.JPG
 
-│   ├── edouard
-
-│   │   ├── 0.png
-
-│   │   ├── 1.png
-
-│   │   └── 2.png
-
-│   ├── s1
-
-│   │   ├── 1.png
-│   │   ├── 2.png
-│   │   ├── 3.png
-│   │   ├── 4.png
-│   │   ├── 5.png
-│   │   ├── 6.png
-│   │   ├── 7.png
-│   │   ├── 8.png
-│   │   └── 9.png
-│   ├── s2
-│   │   ├── 1.png
-│   │   ├── 2.png
-│   │   ├── 3.png
-│   │   ├── 4.png
-│   │   ├── 5.png
-│   │   ├── 6.png
-│   │   ├── 7.png
-│   │   ├── 8.png
-│   │   └── 9.png
-│   └── s3
-│       ├── 1.png
-│       ├── 2.png
-│       ├── 3.png
-│       ├── 4.png
-│       ├── 5.png
-│       ├── 6.png
-│       ├── 7.png
-│       ├── 8.png
-│       └── 9.png
-├── Personne
-│    ── edouard
-│       ├── r.JPG
-│       ├── f.JPG
-│       └── h.JPG
-
-├── readMe.txt
-├── facerec.py
-├── haarcascade_frontalface_default.xml
-├── rennomer.py
-└── train.py
+	├── readMe.txt
+	├── facerec.py
+	├── haarcascade_frontalface_default.xml
+	├── rennomer.py
+	└── train.py
