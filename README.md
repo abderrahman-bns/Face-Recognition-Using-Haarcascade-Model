@@ -40,11 +40,17 @@ Architecture :
 
 .
 ├── att_faces
+
 │   ├── edouard
+
 │   │   ├── 0.png
+
 │   │   ├── 1.png
+
 │   │   └── 2.png
+
 │   ├── s1
+
 │   │   ├── 1.png
 │   │   ├── 2.png
 │   │   ├── 3.png
@@ -79,6 +85,7 @@ Architecture :
 │       ├── r.JPG
 │       ├── f.JPG
 │       └── h.JPG
+
 ├── readMe.txt
 ├── facerec.py
 ├── haarcascade_frontalface_default.xml
