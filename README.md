@@ -80,7 +80,6 @@ Architecture :
 	│       ├── r.JPG
 	│       ├── f.JPG
 	│       └── h.JPG
-
 	├── readMe.txt
 	├── facerec.py
 	├── haarcascade_frontalface_default.xml
